@@ -5,10 +5,6 @@ public class Account {
 	private double balance;
 	private String name;
 	
-	// Constructor
-	public Account(double balance) {
-		this("Unknown", balance);
-	}
 	public Account(String name, double balance) {
 		this.name = name;
 		this.balance = balance;
@@ -16,6 +12,7 @@ public class Account {
 	// A "getter" method that simply returns the balance.
 	public double getBalance() {
 		return balance;
+//	NewComment balance
 	}
 	public String getName() {
 		return name;
